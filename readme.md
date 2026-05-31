@@ -7,7 +7,7 @@ This project deploys a "Hello World" application using Kubernetes orchestration 
 ## Quick Start
 Deploy all components to your cluster:
 ```bash
-kubectl apply -f pv.yaml pvc.yaml configmap.yaml deployment.yaml service.yaml hpa.yaml cronjob.yaml
+kubectl apply -f pv.yaml -f pvc.yaml -f configmap.yaml -f deployment.yaml -f service.yaml -f hpa.yaml -f cronjob.yaml
 ```
 
 ## Accessing the App
